@@ -1,0 +1,35 @@
+{
+  "name": "task-management-system",
+  "version": "1.0.0",
+  "description": "A full-stack task management application built with Node.js, Express, MongoDB, and React",
+  "main": "setup.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install"
+  },
+  "keywords": [
+    "task-management",
+    "nodejs",
+    "express",
+    "mongodb",
+    "react",
+    "jwt",
+    "rest-api",
+    "full-stack"
+  ],
+  "author": "Ketan Jedhe",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ketanjedhe/Task_management.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
